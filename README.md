@@ -1,7 +1,7 @@
 # miga-autocomplete
+Requirements: Django and Django REST framework
 
 In order to run:
-  - Enter the virtual environment - source env/bin/activate  # On Windows use `env\Scripts\activate`
   - Navigate to the project directory - cd quickstart
   - Run the server - python manage.py runserver
   
