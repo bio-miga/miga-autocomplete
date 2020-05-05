@@ -1,0 +1,4 @@
+.vscode/
+venv/
+miga_djangoapp.egg-info/
+*.pyc
