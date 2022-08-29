@@ -9,7 +9,8 @@ setuptools.setup(
         '': 'MiGAAPI'
     },
     install_requires=[
-        'django>=1.11.16'
+        'django>=1.11.16',
+        'airavata-django-portal-sdk'
     ],
     entry_points="""
 [airavata.djangoapp]

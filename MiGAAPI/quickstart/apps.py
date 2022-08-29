@@ -9,3 +9,6 @@ class QuickstartConfig(AppConfig):
     def enabled(self, request):
         # Exclude from menus
         return False
+
+    def ready(self) -> None:
+        from MiGAAPI import queue_settings_calculators  # noqa
